@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.header-Top-container {
+    height: 80px;
+    width: 100%;
+    background-color: #262626;
+
+}
+
+.navbar-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    padding-left: 8px;
+    font-family: "cursive";
+    font-size: 34px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.unordered-list {
+    list-style-type: none;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 8px;
+
+}
+
+.list {
+    font-family: "Roboto";
+    font-size: 19px;
+    color: #F5F5F5;
+    padding: 8px;
+
+}
+
+a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+/* home-container */
+.home-container {
+    background-color: #f4f4f4;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.heading-sector-home {
+    color: #FF0000;
+    font-family: "Playfair";
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.para-sector-home {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.button-sector-home {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px solid;
+    background-color: #262626;
+    color: #fff;
+}
+
+/* about section */
+.about-container {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* services-container */
+
+.services-container {
+    background-color: #f4f4f4;
+
+    min-height: 60vh;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+
+    .services-container {
+        height: 95vh;
+
+    }
+}
+
+.container-service-out {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-service {
+    max-height: 200px;
+    min-height: 230px;
+    width: 340px;
+    min-width: 30%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0.5px solid #000;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading-service {
+    font-family: "Playfair Bree";
+    color: #000;
+    font-size: 26px;
+}
+
+.para-service {
+    color: grey;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+/*contact -container */
+.contact-container {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+
+    .contact-container {
+        height: 85vh;
+
+    }
+}
+
+.contact-item-dev {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.contact-section-inside {
+    margin: 10px;
+    padding: 10px;
+    height: 250px;
+    width: 400px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.contact-para {
+    margin-top: 5px;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #000;
+
+
+
+
+}
+
+.contact-para-number {
+    margin: 5px;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #24802a;
+}
+
+.contact-para-grey {
+    margin: 5px;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: grey;
+}
+
+.contact-para-message {
+    margin: 5px;
+    height: 36px;
+    width: 170px;
+    background-color: #000;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 8px;
+    text-align: center;
+
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+
+
+}
+
+.left-container {
+    height: 30px;
+    width: 10%;
+}
+
+#icon {
+    font-size: 30px;
+    padding-right: 10px;
+
+}
